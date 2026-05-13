@@ -1,0 +1,280 @@
+{
+  "run_id": "run-1778633753772",
+  "job_index": 1,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 1,
+    "archetype": "tool",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Un outil simple pour gérer son budget locatif et anticiper les dépenses mensuelles.",
+    "notes": "Permet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France.\nDestiné aux locataires pour une meilleure gestion de leur budget. Design clair et axé sur la visualisation des données financières.\nPermet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France.\nPermet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France. Destiné aux locataires pour une meilleure gestion de leur budget. Design clair et axé sur la visualisation des données financières.\nPermet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France.\nPermet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France. Destiné aux locataires pour une meilleure gestion de leur budget. Design clair et axé sur la visualisation des données financières. Permet aux locataires de suivre et visualiser leurs dépenses…",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "tool",
+    "archetype_mix": [
+      "tool"
+    ],
+    "forced_design_theme": "ledger-slate",
+    "forced_structure_preset": "metric-grid",
+    "site_idea_title": "Tableau de Bord de Suivi des Dépenses Locatives (Locataires)",
+    "site_idea_summary": "Permet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France.",
+    "forced_slug": "tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7"
+  },
+  "site_spec": {
+    "slug": "tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7",
+    "theme": {
+      "name": "Ledger Slate",
+      "slug": "ledger-slate",
+      "eyebrow": "Trust Ledger",
+      "family": "ledger-slate",
+      "moods": [
+        "trustworthy",
+        "financial",
+        "dense",
+        "clear"
+      ],
+      "archetypes": [
+        "calculator",
+        "tool"
+      ],
+      "niches": [
+        "finance",
+        "insurance",
+        "budgeting",
+        "comparison",
+        "compliance"
+      ],
+      "keywords": [
+        "ledger",
+        "slate",
+        "trust",
+        "finance",
+        "clear"
+      ],
+      "token_index": [
+        "budgeting",
+        "calculator",
+        "clear",
+        "comparison",
+        "compliance",
+        "dense",
+        "finance",
+        "financial",
+        "insurance",
+        "ledger",
+        "slate",
+        "tool",
+        "trust",
+        "trustworthy"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@400;500;600;700&display=swap",
+      "display_font": "\"Merriweather\", serif",
+      "body_font": "\"Source Sans 3\", sans-serif",
+      "layout": "split",
+      "card_style": "glass",
+      "button_style": "gradient",
+      "decor_style": "ribbons",
+      "hero_template": "1.08fr 0.92fr",
+      "seo_template": "1.18fr 0.82fr",
+      "feature_columns": 3,
+      "faq_columns": 3,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "16px",
+      "palette": {
+        "bg": "linear-gradient(180deg, #f8fafc 0%, #cbd5e1 100%)",
+        "surface": "rgba(255,255,255,0.92)",
+        "surface_border": "rgba(15,23,42,0.1)",
+        "text": "#0f172a",
+        "muted": "#475569",
+        "accent": "#0f766e",
+        "accent_alt": "#1d4ed8",
+        "hero_glow": "rgba(15, 118, 110, 0.12)",
+        "button_text": "#f8fafc",
+        "panel_alt": "rgba(255,255,255,0.88)",
+        "shadow": "0 22px 64px rgba(15, 23, 42, 0.08)",
+        "input_fill": "rgba(15,23,42,0.03)"
+      }
+    },
+    "structure": {
+      "name": "Metric Grid",
+      "slug": "metric-grid",
+      "hero_variant": "command",
+      "proof_variant": "metrics",
+      "section_order": [
+        "features",
+        "seo",
+        "proof",
+        "faq"
+      ],
+      "feature_columns": 4,
+      "faq_columns": 2,
+      "family": "data-grid",
+      "moods": [
+        "technical",
+        "precise",
+        "systemic"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "developer tools",
+        "qa",
+        "finance",
+        "analytics"
+      ],
+      "keywords": [
+        "metrics",
+        "grid",
+        "dashboard",
+        "precision"
+      ],
+      "token_index": [
+        "analytics",
+        "calculator",
+        "command",
+        "dashboard",
+        "data",
+        "developer",
+        "faq",
+        "features",
+        "finance",
+        "grid",
+        "metric",
+        "metrics",
+        "precise",
+        "precision",
+        "proof",
+        "seo",
+        "systemic",
+        "technical",
+        "tool",
+        "tools"
+      ]
+    },
+    "render_direction": "atlas-report",
+    "render_direction_name": "Atlas Report",
+    "page_blueprint": "briefing-board",
+    "page_blueprint_name": "Briefing Board",
+    "title": "Tableau de Bord de Suivi des Dépenses Locatives (Locataires)",
+    "tagline": "Calculateur de Budget Locatif",
+    "description": "Permet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France.",
+    "feature_prefix": "Bloc",
+    "action": "Utiliser l'outil",
+    "cta_primary": "Calculer mon Budget Locatif",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "primary",
+        "label": "Texte ou besoin",
+        "type": "text",
+        "placeholder": "Votre besoin principal",
+        "weight": 1.0
+      },
+      {
+        "id": "context",
+        "label": "Contexte",
+        "type": "text",
+        "placeholder": "Situation ou objectif",
+        "weight": 1.0
+      },
+      {
+        "id": "scope",
+        "label": "Intensité",
+        "type": "number",
+        "placeholder": "3",
+        "weight": 0.3
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Atlas Report",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Résultat recommandé",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Atlas Report",
+      "Calculer mon Budget Locatif",
+      "Résultat recommandé",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Résultat recommandé",
+    "result_unit": "",
+    "runtime_mode": "analysis_tool",
+    "page_variant": "console",
+    "faq_topic": "Tableau de Bord de Suivi des Dépenses Locatives (Locataires)",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Tableau de Bord de Suivi des Dépenses Locatives (Locataires) ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Tableau de Bord de Suivi des Dépenses Locatives (Locataires) et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Tableau de Bord de Suivi des Dépenses Locatives (Locataires) | Calculateur de Budget Locatif</title>\n    <meta name=\"description\" content=\"Permet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France.\">\n    <style>\n        :root {\n            --slate-bg: #f8f9fa;\n            --slate-panel: #ffffff;\n            --slate-text: #343a40;\n            --slate-border: #e9ecef;\n            --slate-accent: #007bff;\n            --slate-shadow: rgba(0, 0, 0, 0.05);\n            --font-family-display: 'Montserrat', sans-serif;\n            --font-family-ui: 'Inter', sans-serif;\n        }\n\n        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@700&display=swap');\n\n        body {\n            font-family: var(--font-family-ui);\n            line-height: 1.6;\n            color: var(--slate-text);\n            background-color: var(--slate-bg);\n            margin: 0;\n            padding: 20px;\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n        }\n\n        h1, h2, h3 {\n            font-family: var(--font-family-display);\n            color: var(--slate-text);\n            margin-top: 0;\n        }\n\n        h1 {\n            font-size: 2.5em;\n            text-align: center;\n            margin-bottom: 20px;\n        }\n\n        h2 {\n            font-size: 1.8em;\n            margin-bottom: 15px;\n            border-bottom: 2px solid var(--slate-border);\n            padding-bottom: 5px;\n        }\n\n        .container {\n            width: 100%;\n            max-width: 1200px;\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\n            gap: 20px;\n            margin-bottom: 30px;\n        }\n\n        .panel {\n            background-color: var(--slate-panel);\n            border: 1px solid var(--slate-border);\n            border-radius: 8px;\n            box-shadow: 0 4px 6px var(--slate-shadow);\n            padding: 20px;\n            position: relative;\n        }\n\n        .panel-full {\n            grid-column: 1 / -1;\n        }\n\n        label {\n            display: block;\n            margin-bottom: 8px;\n            font-weight: 600;\n            font-size: 0.9em;\n            color: var(--slate-text);\n        }\n\n        input[type=\"number\"],\n        select,\n        textarea {\n            width: calc(100% - 20px);\n            padding: 10px;\n            margin-bottom: 15px;\n            border: 1px solid var(--slate-border);\n            border-radius: 4px;\n            box-sizing: border-box;\n            font-family: var(--font-family-ui);\n            font-size: 1em;\n            color: var(--slate-text);\n        }\n\n        input[type=\"number\"]:focus,\n        select:focus,\n        textarea:focus {\n            outline: none;\n            border-color: var(--slate-accent);\n            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);\n        }\n\n        button {\n            background-color: var(--slate-accent);\n            color: white;\n            padding: 12px 20px;\n            border: none;\n            border-radius: 4px;\n            cursor: pointer;\n            font-size: 1em;\n            font-weight: 600;\n            transition: background-color 0.2s ease;\n        }\n\n        button:hover {\n            background-color: #0056b3;\n        }\n\n        .result-area {\n            background-color: var(--slate-panel);\n            border: 1px solid var(--slate-border);\n            border-radius: 8px;\n            box-shadow: 0 4px 6px var(--slate-shadow);\n            padding: 20px;\n            margin-top: 20px;\n            display: none; /* Hidden by default */\n            grid-column: 1 / -1;\n        }\n\n        .result-area h3 {\n            color: var(--slate-accent);\n            margin-bottom: 15px;\n        }\n\n        .metric-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));\n            gap: 15px;\n            margin-top: 20px;\n        }\n\n        .metric-card {\n            background-color: var(--slate-bg);\n            border: 1px solid var(--slate-border);\n            border-radius: 6px;\n            padding: 15px;\n            text-align: center;\n        }\n\n        .metric-card .value {\n            font-family: var(--font-family-display);\n            font-size: 2em;\n            font-weight: 700;\n            color: var(--slate-accent);\n            margin-bottom: 5px;\n            line-height: 1.2;\n        }\n\n        .metric-card .label {\n            font-size: 0.85em;\n            color: var(--slate-text);\n            text-transform: uppercase;\n            letter-spacing: 0.5px;\n        }\n\n        table {\n            width: 100%;\n            border-collapse: collapse;\n            margin-top: 20px;\n        }\n\n        table th, table td {\n            border: 1px solid var(--slate-border);\n            padding: 10px;\n            text-align: left;\n        }\n\n        table th {\n            background-color: var(--slate-bg);\n            font-weight: 600;\n            text-transform: uppercase;\n            font-size: 0.9em;\n        }\n\n        table tr:nth-child(even) {\n            background-color: #f2f2f2;\n        }\n\n        .seo-section {\n            width: 100%;\n            max-width: 1200px;\n            margin-top: 40px;\n            padding: 20px;\n            background-color: var(--slate-panel);\n            border: 1px solid var(--slate-border);\n            border-radius: 8px;\n            box-shadow: 0 4px 6px var(--slate-shadow);\n        }\n\n        .seo-section h2 {\n            text-align: center;\n        }\n\n        .seo-section p {\n            margin-bottom: 1em;\n        }\n\n        .seo-section ul {\n            list-style-type: disc;\n            margin-left: 20px;\n            margin-bottom: 1em;\n        }\n\n        .seo-section li {\n            margin-bottom: 0.5em;\n        }\n\n        @media (max-width: 768px) {\n            .container {\n                grid-template-columns: 1fr;\n            }\n            h1 {\n                font-size: 2em;\n            }\n            .metric-grid {\n                grid-template-columns: 1fr;\n            }\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7.onrender.com\">\n    <meta property=\"og:title\" content=\"Tableau de Bord de Suivi des Dépenses Locatives (Locataires)\">\n    <meta property=\"og:description\" content=\"Permet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France.\">\n    <meta property=\"og:url\" content=\"https://tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Tableau de Bord de Suivi des Dépenses Locatives (Locataires)\", \"description\": \"Permet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France.\", \"url\": \"https://tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7\" data-runtime-mode=\"analysis_tool\">\n    <h1>Tableau de Bord de Suivi des Dépenses Locatives</h1>\n\n    <div class=\"container\">\n        <div class=\"panel panel-full\">\n            <h2>Calculateur de Budget Locatif</h2>\n            <p>Saisissez vos informations pour obtenir une vue d'ensemble de vos dépenses mensuelles.</p>\n            <form id=\"tool-form\">\n                <div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px;\">\n                    <div>\n                        <label for=\"loyer\">Loyer mensuel hors charges (€):</label>\n                        <input type=\"number\" id=\"loyer\" name=\"loyer\" value=\"650\" min=\"0\" required>\n                    </div>\n                    <div>\n                        <label for=\"chargesForfaitaires\">Charges forfaitaires mensuelles (€) (si applicables):</label>\n                        <input type=\"number\" id=\"chargesForfaitaires\" name=\"chargesForfaitaires\" value=\"100\" min=\"0\">\n                    </div>\n                    <div>\n                        <label for=\"regularisationCharges\">Provision sur charges mensuelles (€) (si applicables):</label>\n                        <input type=\"number\" id=\"regularisationCharges\" name=\"regularisationCharges\" value=\"80\" min=\"0\">\n                    </div>\n                    <div>\n                        <label for=\"electricite\">Électricité mensuelle (€) (estimation):</label>\n                        <input type=\"number\" id=\"electricite\" name=\"electricite\" value=\"50\" min=\"0\">\n                    </div>\n                    <div>\n                        <label for=\"gaz\">Gaz mensuel (€) (estimation):</label>\n                        <input type=\"number\" id=\"gaz\" name=\"gaz\" value=\"30\" min=\"0\">\n                    </div>\n                    <div>\n                        <label for=\"eau\">Eau mensuelle (€) (estimation):</label>\n                        <input type=\"number\" id=\"eau\" name=\"eau\" value=\"20\" min=\"0\">\n                    </div>\n                    <div>\n                        <label for=\"internet\">Internet/Téléphonie mensuel (€):</label>\n                        <input type=\"number\" id=\"internet\" name=\"internet\" value=\"35\" min=\"0\">\n                    </div>\n                    <div>\n                        <label for=\"assuranceHabitation\">Assurance habitation mensuelle (€):</label>\n                        <input type=\"number\" id=\"assuranceHabitation\" name=\"assuranceHabitation\" value=\"15\" min=\"0\">\n                    </div>\n                    <div>\n                        <label for=\"taxeHabitationMensuelle\">Taxe d'habitation mensuelle (€) (estimation, si applicable):</label>\n                        <input type=\"number\" id=\"taxeHabitationMensuelle\" name=\"taxeHabitationMensuelle\" value=\"10\" min=\"0\">\n                    </div>\n                    <div>\n                        <label for=\"fraisMaintenance\">Frais de maintenance/petits travaux mensuels (€) (estimation):</label>\n                        <input type=\"number\" id=\"fraisMaintenance\" name=\"fraisMaintenance\" value=\"10\" min=\"0\">\n                    </div>\n                    <div>\n                        <label for=\"autresFrais\">Autres frais récurrents mensuels (€) (Ex: parking, femme de ménage):</label>\n                        <input type=\"number\" id=\"autresFrais\" name=\"autresFrais\" value=\"0\" min=\"0\">\n                    </div>\n                </div>\n                <button type=\"submit\" id=\"tool-submit\" style=\"margin-top: 20px;\">Calculer mon Budget Locatif</button>\n            </form>\n        </div>\n\n        <div id=\"tool-result\" class=\"result-area\">\n            <h3 id=\"result-headline\">Votre Bilan Locatif Mensuel</h3>\n            <div class=\"metric-grid\">\n                <div class=\"metric-card\">\n                    <div class=\"value\" id=\"totalLoyerCharges\">0.00€</div>\n                    <div class=\"label\">Loyer & Charges (Minimum)</div>\n                </div>\n                <div class=\"metric-card\">\n                    <div class=\"value\" id=\"totalDepensesFixes\">0.00€</div>\n                    <div class=\"label\">Total Dépenses Fixes</div>\n                </div>\n                <div class=\"metric-card\">\n                    <div class=\"value\" id=\"budgetTotalEstime\">0.00€</div>\n                    <div class=\"label\">Budget Total Estimé</div>\n                </div>\n            </div>\n\n            <h4>Détail des Dépenses</h4>\n            <table id=\"depensesTable\">\n                <thead>\n                    <tr>\n                        <th>Catégorie</th>\n                        <th>Montant Mensuel (€)</th>\n                    </tr>\n                </thead>\n                <tbody>\n                    <!-- Results will be injected here -->\n                </tbody>\n            </table>\n\n            <p style=\"margin-top: 20px; font-size: 0.9em;\">\n                <em>Ces calculs sont des estimations. Les montants réels peuvent varier en fonction de votre consommation et des ajustements de charges. Il est conseillé de consulter vos contrats et factures.</em>\n            </p>\n\n            <div style=\"margin-top: 25px; text-align: center;\">\n                <button data-affiliate-slot=\"budget_conseils_personnalises\">Obtenir des Conseils Personnalisés</button>\n                <button data-affiliate-slot=\"comparer_assurances_habitation\" style=\"margin-left: 15px;\">Comparer les Assurances Habitation</button>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"seo-section\">\n        <h2>Optimiser Votre Budget Locatif en France : Le Guide Complet</h2>\n        <p>Gérer son budget quand on est locataire en France peut s'avérer complexe. Entre le loyer, les charges, l'électricité, le gaz, l'eau, l'assurance habitation et parfois la taxe d'habitation, les dépenses s'accumulent vite. Notre outil de suivi des dépenses locatives est conçu pour vous offrir une vision claire et détaillée de vos engagements financiers mensuels.</p>\n\n        <h3>Pourquoi un outil de gestion budgétaire pour locataires ?</h3>\n        <p>Un suivi rigoureux est essentiel pour éviter les mauvaises surprises et optimiser vos économies. Que vous soyez un jeune actif, une famille ou un étudiant, anticiper vos dépenses locatives vous permet de mieux planifier votre budget global. Notre calculateur prend en compte toutes les variables clés pour une estimation précise de votre coût de logement en France.</p>\n\n        <h3>Comprendre les dépenses clés de votre logement</h3>\n        <ul>\n            <li><strong>Loyer et Charges Locatives :</strong> La base de vos dépenses. Les charges peuvent être forfaitaires ou soumises à régularisation annuelle. Notre outil vous aide à différencier ces montants.</li>\n            <li><strong>Consommations Énergétiques :</strong> Électricité et gaz sont des postes importants. Estimez vos coûts pour anticiper.</li>\n            <li><strong>Eau :</strong> Souvent incluse dans les charges ou facturée séparément, ne la négligez pas.</li>\n            <li><strong>Assurance Habitation :</strong> Obligatoire pour les locataires, son coût varie.</li>\n            <li><strong>Internet et Téléphonie :</strong> Un service essentiel dont le coût doit être intégré à votre budget.</li>\n            <li><strong>Taxe d'Habitation :</strong> Même si elle a évolué, certains locataires peuvent encore être concernés par un résiduel ou la taxe d'enlèvement des ordures ménagères.</li>\n            <li><strong>Autres Frais :</strong> Petit entretien, parking, services... tout compte !</li>\n        </ul>\n\n        <h3>Comment notre tableau de bord locatif vous aide ?</h3>\n        <p>En renseignant simplement les champs, vous obtenez instantanément un bilan précis de vos dépenses mensuelles. Visualisez votre budget total estimé, le minimum à prévoir pour le loyer et les charges, et le détail par catégorie. Cet outil est parfait pour :</p>\n        <ul>\n            <li>Établir un budget prévisionnel avant un emménagement.</li>\n            <li>Suivre vos dépenses au fil des mois et identifier les postes où économiser.</li>\n            <li>Préparer une demande de location en ayant une visibilité sur vos capacités financières.</li>\n            <li>Mieux comprendre la composition de votre budget logement.</li>\n        </ul>\n        <p>Ne laissez plus vos dépenses locatives vous prendre au dépourvu. Utilisez notre outil gratuit pour une gestion saine et sereine de votre budget de locataire en France.</p>\n    </div>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(event) {\n            event.preventDefault();\n\n            const loyer = parseFloat(document.getElementById('loyer').value) || 0;\n            const chargesForfaitaires = parseFloat(document.getElementById('chargesForfaitaires').value) || 0;\n            const regularisationCharges = parseFloat(document.getElementById('regularisationCharges').value) || 0;\n            const electricite = parseFloat(document.getElementById('electricite').value) || 0;\n            const gaz = parseFloat(document.getElementById('gaz').value) || 0;\n            const eau = parseFloat(document.getElementById('eau').value) || 0;\n            const internet = parseFloat(document.getElementById('internet').value) || 0;\n            const assuranceHabitation = parseFloat(document.getElementById('assuranceHabitation').value) || 0;\n            const taxeHabitationMensuelle = parseFloat(document.getElementById('taxeHabitationMensuelle').value) || 0;\n            const fraisMaintenance = parseFloat(document.getElementById('fraisMaintenance').value) || 0;\n            const autresFrais = parseFloat(document.getElementById('autresFrais').value) || 0;\n\n            const totalLoyerCharges = loyer + chargesForfaitaires + regularisationCharges;\n            const totalDepensesFixes = electricite + gaz + eau + internet + assuranceHabitation + taxeHabitationMensuelle + fraisMaintenance + autresFrais;\n            const budgetTotalEstime = totalLoyerCharges + totalDepensesFixes;\n\n            document.getElementById('totalLoyerCharges').textContent = totalLoyerCharges.toFixed(2) + '€';\n            document.getElementById('totalDepensesFixes').textContent = totalDepensesFixes.toFixed(2) + '€';\n            document.getElementById('budgetTotalEstime').textContent = budgetTotalEstime.toFixed(2) + '€';\n\n            const depenses = [\n                { categorie: \"Loyer (hors charges)\", montant: loyer },\n                { categorie: \"Charges Forfaitaires\", montant: chargesForfaitaires },\n                { categorie: \"Provision sur Charges\", montant: regularisationCharges },\n                { categorie: \"Électricité\", montant: electricite },\n                { categorie: \"Gaz\", montant: gaz },\n                { categorie: \"Eau\", montant: eau },\n                { categorie: \"Internet/Téléphonie\", montant: internet },\n                { categorie: \"Assurance Habitation\", montant: assuranceHabitation },\n                { categorie: \"Taxe d'Habitation (estimation mensuelle)\", montant: taxeHabitationMensuelle },\n                { categorie: \"Frais de Maintenance (estimation mensuelle)\", montant: fraisMaintenance },\n                { categorie: \"Autres Frais Récurrents\", montant: autresFrais }\n            ];\n\n            const tableBody = document.querySelector('#depensesTable tbody');\n            tableBody.innerHTML = ''; // Clear previous results\n\n            depenses.forEach(item => {\n                if (item.montant > 0) {\n                    const row = tableBody.insertRow();\n                    const cell1 = row.insertCell(0);\n                    const cell2 = row.insertCell(1);\n                    cell1.textContent = item.categorie;\n                    cell2.textContent = item.montant.toFixed(2) + '€';\n                }\n            });\n\n            document.getElementById('tool-result').style.display = 'block';\n            document.getElementById('tool-result').scrollIntoView({ behavior: 'smooth' });\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
