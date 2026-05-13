@@ -1,0 +1,40 @@
+{
+  "name": "Tableau de Bord de Suivi des Dépenses Locatives (Locataires)",
+  "description": "Permet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France.",
+  "theme": "tool",
+  "design_theme": "ledger-slate",
+  "structure_preset": "metric-grid",
+  "render_direction": "atlas-report",
+  "page_blueprint": "briefing-board",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7.onrender.com",
+  "created": "2026-05-13T00:56:15.708453+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "status": "generated",
+  "run_id": "run-1778633753772",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: command",
+    "Proof module: metrics",
+    "Design theme: Ledger Slate",
+    "Render direction: Atlas Report",
+    "Page blueprint: Briefing Board",
+    "Runtime mode: analysis_tool",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
