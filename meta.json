@@ -1,23 +1,38 @@
 {
+  "slug": "tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7",
   "name": "Tableau de Bord de Suivi des Dépenses Locatives (Locataires)",
   "description": "Permet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France.",
   "theme": "tool",
-  "design_theme": "ledger-slate",
-  "structure_preset": "metric-grid",
-  "render_direction": "atlas-report",
-  "page_blueprint": "briefing-board",
+  "design_theme": "imported-source",
+  "structure_preset": "external-source",
+  "render_direction": "imported-source",
+  "page_blueprint": "imported-source",
   "language": "fr",
   "country": "FR",
   "url": null,
   "expected_url": "https://tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7.onrender.com",
-  "created": "2026-05-13T00:56:15.708453+00:00",
+  "created": "2026-05-18T20:35:07.442842+00:00",
   "owner_user_id": "user-1774822953462",
   "owner_username": "admin",
   "owner_display_name": "Administrator",
   "status": "generated",
-  "run_id": "run-1778633753772",
+  "run_id": "run-1779136506382",
   "publish_target": "render",
   "mode": "production",
+  "source_type": "imported",
+  "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1779136481751/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7",
+  "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1779136481751/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7",
+  "import_resolution_note": null,
+  "analysis": {
+    "model": "preserved-analysis",
+    "summary": "Permet aux locataires de suivre et visualiser leurs dépenses de loyer, charges et autres frais liés à leur logement en France.",
+    "notes": "Growth module republish of an updated local artifact.",
+    "characteristics": [
+      "imported static site",
+      "ready file deploy",
+      "calculator"
+    ]
+  },
   "github": {
     "status": "pending"
   },
@@ -28,13 +43,245 @@
     "status": "pending"
   },
   "features": [
-    "Hero pattern: command",
-    "Proof module: metrics",
-    "Design theme: Ledger Slate",
-    "Render direction: Atlas Report",
-    "Page blueprint: Briefing Board",
-    "Runtime mode: analysis_tool",
-    "Generation mode: direct_html",
-    "Artifact rendered, awaiting QA and deployment"
-  ]
+    "Imported from ready static files",
+    "AI analysis model: preserved-analysis",
+    "imported static site",
+    "ready file deploy",
+    "calculator"
+  ],
+  "growth": {
+    "affiliate": {
+      "status": "ready",
+      "updated_at": "2026-05-18T20:34:48.084144+00:00",
+      "modes": [
+        "plain_url_text"
+      ],
+      "links": 1,
+      "insertions": 1,
+      "review": {
+        "status": "pass",
+        "score": 78,
+        "summary": "The page presents a functional rental expense tracker with clear UX and legitimate affiliate positioning. The tool is coherent and serves a genuine purpose. Minor SEO optimization could be refined, but no material spam or manipulation detected.",
+        "issues": [
+          "Repetitive CTA buttons ('Obtenir des Conseils Personnalisés', 'Comparer les Assurances Habitation', 'Optimiser Votre Budget') could feel pushy if affiliate links are heavy-handed—verify these don't redirect aggressively",
+          "The disclaimer about estimates is good, but the incomplete final paragraph ('Que vous…') suggests unfinished content that should be completed",
+          "Keyword density around 'budget locatif' and 'locataire' is acceptable but monitor for over-optimization in full page content",
+          "Affiliate disclosure should be explicit and visible near CTA buttons to maintain trust"
+        ]
+      }
+    }
+  },
+  "ahrefs": {
+    "status": "ready",
+    "synced_at": "2026-05-13T02:56:40.216172+00:00",
+    "country": "FR",
+    "target_url": "https://tableau-de-bord-de-suivi-des-depenses.onrender.com/",
+    "target_host": "tableau-de-bord-de-suivi-des-depenses.onrender.com",
+    "current_live_url": "https://tableau-de-bord-de-suivi-des-depenses.onrender.com",
+    "domain_rating": 89.0,
+    "ahrefs_rank": 1924,
+    "backlinks": 0,
+    "refdomains": 0,
+    "org_traffic": 0,
+    "org_keywords": 0,
+    "org_keywords_1_3": 0,
+    "org_keywords_4_10": 0,
+    "org_keywords_11_20": 0,
+    "org_keywords_21_50": 0,
+    "org_keywords_51_plus": 0,
+    "top_country": null,
+    "top_country_traffic": null,
+    "detail": "Ahrefs metrics synced via Batch Analysis.",
+    "shared_host": true,
+    "metrics_scope": "shared-host",
+    "shared_host_provider": "Render",
+    "shared_host_note": "Сайт живёт на Render shared host (tableau-de-bord-de-suivi-des-depenses.onrender.com). DR и Ahrefs Rank в таком режиме частично отражают силу хост-домена, поэтому смотри в первую очередь на keywords, ref domains, traffic и top pages.",
+    "opportunity_score": 0,
+    "opportunity_band": "dormant",
+    "opportunity_label": "Dormant",
+    "opportunity_detail": "Ahrefs пока почти не видит самостоятельных SEO-сигналов у этого проекта. · shared-host: DR/AR смотри осторожно."
+  },
+  "previous_live_state": {
+    "url": "https://tableau-de-bord-de-suivi-des-depenses.onrender.com",
+    "expected_url": "https://tableau-de-bord-de-suivi-des-depenses.onrender.com",
+    "requested_url": "https://tableau-de-bord-de-suivi-des-depenses.onrender.com",
+    "github": {
+      "status": "published",
+      "repo_name": "tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7",
+      "repo_url": "https://github.com/olivkovyi/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7",
+      "updated_at": 1778633817
+    },
+    "deployment": {
+      "status": "ready",
+      "provider": "render",
+      "service_id": "srv-d81spi4dirrc73d89cj0",
+      "project_name": "tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7",
+      "requested_project_name": null,
+      "deployment_id": "dep-d81spicdirrc73d89crg",
+      "deployment_url": "https://tableau-de-bord-de-suivi-des-depenses.onrender.com",
+      "public_url": "https://tableau-de-bord-de-suivi-des-depenses.onrender.com",
+      "expected_public_url": "https://tableau-de-bord-de-suivi-des-depenses.onrender.com",
+      "dashboard_url": "https://dashboard.render.com/static/srv-d81spi4dirrc73d89cj0",
+      "ready_state": "live",
+      "target": "production",
+      "updated_at": 1778633837,
+      "requested_public_url": "https://tableau-de-bord-de-suivi-des-depenses.onrender.com",
+      "url_source": "alias"
+    },
+    "qa": {
+      "status": "pass",
+      "local": {
+        "status": "pass",
+        "checks": [
+          {
+            "name": "index_exists",
+            "status": "pass",
+            "detail": "index.html exists"
+          },
+          {
+            "name": "meta_exists",
+            "status": "pass",
+            "detail": "meta.json exists"
+          },
+          {
+            "name": "robots_exists",
+            "status": "pass",
+            "detail": "robots.txt exists"
+          },
+          {
+            "name": "has_title",
+            "status": "pass",
+            "detail": "HTML contains a title tag"
+          },
+          {
+            "name": "has_viewport",
+            "status": "pass",
+            "detail": "HTML contains a mobile viewport meta tag"
+          },
+          {
+            "name": "has_canonical",
+            "status": "pass",
+            "detail": "HTML contains a canonical URL"
+          },
+          {
+            "name": "bundle_size",
+            "status": "pass",
+            "detail": "Generated HTML stays below 250KB"
+          },
+          {
+            "name": "functional_qa_hook",
+            "status": "pass",
+            "detail": "Generated HTML includes the browser QA hook used before deploy."
+          },
+          {
+            "name": "inline_script_syntax",
+            "status": "pass",
+            "detail": "Inline JavaScript syntax check passed."
+          },
+          {
+            "name": "robots_google_only",
+            "status": "pass",
+            "detail": "robots.txt allows only Google crawlers and blocks all other bots."
+          },
+          {
+            "name": "no_meta_noindex",
+            "status": "pass",
+            "detail": "Generated HTML does not inject a noindex robots meta tag."
+          },
+          {
+            "name": "no_internal_branding",
+            "status": "pass",
+            "detail": "Generated site does not leak internal platform branding or internal product naming."
+          },
+          {
+            "name": "desktop_layout_overlap",
+            "status": "pass",
+            "detail": "Editorial desktop layout avoids negative overlap offsets on the tool panel"
+          }
+        ],
+        "checked_at": 1779136488
+      },
+      "functional": {
+        "status": "pass",
+        "detail": "desktop: Le formulaire natif a mis a jour la zone de resultat. | mobile: Le formulaire natif a mis a jour la zone de resultat.",
+        "target_url": "http://127.0.0.1:44029/index.html?__qa=functional",
+        "mode": "native-form",
+        "headline": "Votre Bilan Locatif Mensuel",
+        "primary_url": "",
+        "desktop": {
+          "status": "pass",
+          "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+          "target_url": "http://127.0.0.1:44029/index.html?__qa=functional",
+          "viewport": "desktop",
+          "mode": "native-form",
+          "headline": "Votre Bilan Locatif Mensuel",
+          "primary_url": "",
+          "reported_viewport": "desktop",
+          "updated_at": 1779136489
+        },
+        "mobile": {
+          "status": "pass",
+          "detail": "Le formulaire natif a mis a jour la zone de resultat.",
+          "target_url": "http://127.0.0.1:44029/index.html?__qa=functional",
+          "viewport": "mobile",
+          "mode": "native-form",
+          "headline": "Votre Bilan Locatif Mensuel",
+          "primary_url": "",
+          "reported_viewport": "mobile",
+          "updated_at": 1779136490
+        },
+        "updated_at": 1779136490
+      },
+      "remote": {
+        "status": "pass",
+        "checks": [
+          {
+            "name": "remote_200",
+            "status": "pass",
+            "detail": "Remote deployment returned HTTP 200"
+          },
+          {
+            "name": "remote_title",
+            "status": "pass",
+            "detail": "Remote HTML contains a title tag"
+          },
+          {
+            "name": "remote_body",
+            "status": "pass",
+            "detail": "Remote HTML contains a body tag"
+          }
+        ],
+        "checked_at": 1779136490
+      },
+      "visual": {
+        "status": "pass",
+        "desktop": {
+          "status": "pass",
+          "path": "/var/lib/utility-site-studio/static/generated-qa/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7-desktop.png",
+          "detail": "1440x960 screenshot captured.",
+          "relative_url": "/static/generated-qa/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7-desktop.png"
+        },
+        "mobile": {
+          "status": "pass",
+          "path": "/var/lib/utility-site-studio/static/generated-qa/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7-mobile.png",
+          "detail": "430x932 screenshot captured.",
+          "relative_url": "/static/generated-qa/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7-mobile.png"
+        },
+        "updated_at": 1779136492
+      },
+      "lighthouse": {
+        "status": "pass",
+        "scores": {
+          "performance": 100,
+          "accessibility": 92,
+          "best-practices": 96,
+          "seo": 100
+        },
+        "report_path": "/var/lib/utility-site-studio/data/qa/lighthouse/tableau-de-bord-de-suivi-des-depenses-locatives-268a12c7-lighthouse.json",
+        "updated_at": 1779136506
+      },
+      "qa_live_url": "https://tableau-de-bord-de-suivi-des-depenses.onrender.com",
+      "updated_at": "2026-05-18T20:35:06.026387+00:00"
+    }
+  }
 }
